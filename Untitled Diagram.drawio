@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T21:12:24.145Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" version="22.1.5" etag="GNYx1ghvlHOETjslvzkA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-02T22:23:05.149Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="WAlIrtBj3HnVABvXG2o2" version="22.1.5" type="github">
   <diagram name="Page-1" id="Es-xFCHi23JOD7P0ha2G">
-    <mxGraphModel>
+    <mxGraphModel dx="588" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pfnT455g189Y2Wst_wkJ-7" value="Application Tier" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-8" value="User Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pfnT455g189Y2Wst_wkJ-7">
+          <mxGeometry x="140" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-13" value="Node.js/Express" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pfnT455g189Y2Wst_wkJ-7">
+          <mxGeometry x="10" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-14" value="EJS/PUG Frontend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pfnT455g189Y2Wst_wkJ-7">
+          <mxGeometry x="204" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pfnT455g189Y2Wst_wkJ-7" source="pfnT455g189Y2Wst_wkJ-8" target="pfnT455g189Y2Wst_wkJ-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="250" as="sourcePoint" />
+            <mxPoint x="190" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pfnT455g189Y2Wst_wkJ-7" source="pfnT455g189Y2Wst_wkJ-13" target="pfnT455g189Y2Wst_wkJ-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="330" as="sourcePoint" />
+            <mxPoint x="160" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-17" value="Delivers&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pfnT455g189Y2Wst_wkJ-7">
+          <mxGeometry x="90" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-18" value="Renders" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pfnT455g189Y2Wst_wkJ-7">
+          <mxGeometry x="130" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="90" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pfnT455g189Y2Wst_wkJ-9" target="pfnT455g189Y2Wst_wkJ-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="300" as="sourcePoint" />
+            <mxPoint x="550" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-12" value="Interacts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-19" value="Data tier" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-20" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;AudID Music Recognise API&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pfnT455g189Y2Wst_wkJ-19">
+          <mxGeometry x="154" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;MySQL Database&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pfnT455g189Y2Wst_wkJ-19">
+          <mxGeometry x="10" y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-22" value="Spotify API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pfnT455g189Y2Wst_wkJ-19">
+          <mxGeometry x="350" y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pfnT455g189Y2Wst_wkJ-13" target="pfnT455g189Y2Wst_wkJ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pfnT455g189Y2Wst_wkJ-13" target="pfnT455g189Y2Wst_wkJ-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pfnT455g189Y2Wst_wkJ-13" target="pfnT455g189Y2Wst_wkJ-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-30" value="Connects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-85;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-31" value="Integrates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=55;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pfnT455g189Y2Wst_wkJ-33" value="Integrates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
